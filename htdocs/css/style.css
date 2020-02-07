@@ -1,0 +1,103 @@
+	.top{
+		margin: 0 auto;
+		height: 350px;
+		width: 1096px;
+
+	}
+	.menu{
+		float: left;
+		display: inline;
+		height: 240px;
+		width: 750px;
+	}
+
+	.flbg{
+
+
+	}
+	.fontset{
+		margin: 60px 30px;
+	}
+	.login{
+		color: white;
+		border-radius: 2%;
+		background: #222222;
+		display: inline;
+		float: right;
+		width: 305px;
+		height: 240px;
+
+	}
+	body{
+		/*background: url(../image/bg.png);*/
+		background: #132633;
+	}
+	div.menu{
+		position: fixed;
+		background: transparent;
+
+		width: 120px;
+		z-index: 100;
+		left: 0px;
+		height: 535px;
+		top: 55px;
+	}
+	div.menu a{
+		border-radius: 100%;
+		display: block;
+		color: #666;
+		height: 80px;
+		width: 80px;
+		margin-bottom: 5px;
+		font-style: 12px;
+	}
+	div.menu a.bt1{
+		background: #FF1A3D
+	}
+	div.menu a.bt2{
+		background: #B2E95B;
+	}
+	div.menu p{
+		display: block;
+		color: #f90;
+		font-style: 15px;
+		font-weight: bolder;
+	}
+	.homebt{
+		background:#FF1A3D url(../image/icon/ic_home.png) center center no-repeat;
+		font-style: 12px;
+	}
+	nav{
+		background-color:#7ADA5A;
+
+	}
+	.tabletitle{
+		font-family: 標楷體;
+		background: #F5F5F5;
+		width: 135px;
+		margin-bottom: 0;
+	}
+	.order_tital{
+		color: #F9B412;
+		font-family: 標楷體;
+
+	}
+	.mytable{
+		border: 2px solid #F5F5F5;
+
+	}
+	td{
+
+		text-align: bottom;
+		font-size: 30px;
+
+	}
+	th{
+		font-size: 20px;
+	}
+	.errmsg{
+		color: red;
+	}
+	.addmsg{
+		color: blue;
+	}
